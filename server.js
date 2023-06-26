@@ -1,11 +1,15 @@
 const express = require("express");
+const dotenv = require("dotenv");
 
 const app = express();
+
+dotenv.config({ path: "config.env" });
+const PORT = process.env.PORT || 6969;
 
 app.get("/", (req, res) => {
   res.send("this is a CRUD app");
 });
 
-app.listen(6969, () => {
-  console.log(`server listening on port ${6969}`);
+app.listen(PORT, () => {
+  console.log(`server listening on port ${PORT}`);
 });
