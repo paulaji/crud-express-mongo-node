@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -19,7 +20,10 @@
       <nav>
         <div class="container">
           <div class="text-center">
-            <a href="/" class="nav-brand text-dark">CreateReadUpdateDelete</a>
+            <a href="/" class="nav-brand"
+              >Whisper Gallery<br/>
+              <i class="fa-regular fa-face-laugh-squint" style="color: #CCCCCC"></i></i
+            ></a>
           </div>
         </div>
       </nav>
@@ -28,10 +32,10 @@
     <!-- Main Section -->
     <main id="site-main">
       <div class="container">
-        <div class="box-nav d-flex-justify-between">
+        <div class="box-nav d-flex justify-between">
           <a href="/add-user" class="border-shadow">
             <span class="text-gradient"
-              >New User<i class="fa-solid fa-user" style="color: blue"></i
+              >+ New Whisper <i class="fa-solid fa-user" style="color: #000"></i
             ></span>
           </a>
         </div>
@@ -41,9 +45,9 @@
             <thead class="thead-dark">
               <tr>
                 <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Gender</th>
+                <th>Whisper About?</th>
+                <th>Whisper:</th>
+                <th>Confidence Level</th>
                 <th>Status</th>
                 <th>Action</th>
               </tr>
@@ -52,21 +56,21 @@
               <tr>
                 <td>1</td>
                 <td>Paul</td>
-                <td>paul@gmail.com</td>
-                <td>Male</td>
+                <td>Paul is planning to buy a Porsche 911</td>
+                <td>25%</td>
                 <td>Active</td>
                 <td>
                   <a href="#" class="btn border-shadow update"
                     ><span class="text-gradient"
                       ><i
                         class="fa-solid fa-pen-to-square"
-                        style="color: grey"
+                        style="color: #000"
                       ></i></span
                   ></a>
                   <a class="btn border-shadow delete"
                     ><span class="text-gradient"
                       ><i
-                        class="fa-solid fa-trash"
+                        class="fa-solid fa-trash deldel"
                         style="color: red"
                       ></i></span
                   ></a>
