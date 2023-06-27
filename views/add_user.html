@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="form-title text-center">
-          <h2 class="text-dark">New Whisper</h2>
+          <h2 class="text-dark cheeto">New Whisper</h2>
           <span class="text-dark">(you can always not reveal the name)</span>
           <span class="text-light">create your new whisper below</span>
         </div>
@@ -52,7 +52,9 @@
         <form method="post" id="update_user">
           <div class="new_user">
             <div class="form-group">
-              <label for="name" class="text-light">Whisper About: </label>
+              <label for="name" class="text-light cheeto"
+                >Whisper About (Subject):
+              </label>
               <input type="hidden" name="id" value="" />
               <input
                 type="text"
@@ -61,7 +63,7 @@
               />
             </div>
             <div class="form-group">
-              <label for="whisper" class="text-light">Whisper: </label>
+              <label for="whisper" class="text-light cheeto">Whisper: </label>
               <input
                 type="text"
                 name="whisper"
@@ -69,39 +71,71 @@
               />
             </div>
             <div class="form-group">
-              <label for="confidence" class="text-light"
+              <label for="confidence" class="text-light cheeto"
                 >Confidence Level:
               </label>
               <div class="radio inline">
-                <input type="radio" name="confidence" value="verylow" />
-                <label for="confidence" class="text-light">very low /</label>
+                <input
+                  type="radio"
+                  id="radio-2"
+                  name="confidence"
+                  value="verylow"
+                />
+                <label for="radio-2" class="radio-label">very low </label>
               </div>
               <div class="radio inline">
-                <input type="radio" name="confidence" value="low" />
-                <label for="confidence" class="text-light">low /</label>
+                <input
+                  type="radio"
+                  id="radio-3"
+                  name="confidence"
+                  value="low"
+                />
+                <label for="radio-3" class="radio-label">low </label>
               </div>
               <div class="radio inline">
-                <input type="radio" name="confidence" value="medium" />
-                <label for="confidence" class="text-light">medium /</label>
+                <input
+                  type="radio"
+                  id="radio-4"
+                  name="confidence"
+                  value="medium"
+                />
+                <label for="radio-4" class="radio-label">medium </label>
               </div>
               <div class="radio inline">
-                <input type="radio" name="confidence" value="high" />
-                <label for="confidence" class="text-light">high /</label>
+                <input
+                  type="radio"
+                  id="radio-5"
+                  name="confidence"
+                  value="high"
+                />
+                <label for="radio-5" class="radio-label">high </label>
               </div>
               <div class="radio inline">
-                <input type="radio" name="confidence" value="veryhigh" />
-                <label for="confidence" class="text-light">very high</label>
+                <input
+                  type="radio"
+                  id="radio-6"
+                  name="confidence"
+                  value="veryhigh"
+                />
+                <label for="radio-6" class="radio-label">very high</label>
               </div>
             </div>
             <div class="form-group">
-              <label for="status" class="text-light">Active or not? </label>
+              <label for="status" class="text-light cheeto"
+                >Active or not?
+              </label>
               <div class="radio inline">
-                <input type="radio" name="status" value="active" />
-                <label for="confidence" class="text-light">active /</label>
+                <input type="radio" id="radio-7" name="status" value="active" />
+                <label for="radio-7" class="radio-label">active </label>
               </div>
               <div class="radio inline">
-                <input type="radio" name="status" value="inactive" />
-                <label for="confidence" class="text-light">inactive</label>
+                <input
+                  type="radio"
+                  id="radio-8"
+                  name="status"
+                  value="inactive"
+                />
+                <label for="radio-8" class="radio-label">inactive</label>
               </div>
             </div>
             <div class="form-group">
